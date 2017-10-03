@@ -1,0 +1,21 @@
+body 
+{
+	background-image: url("../img/background.png");
+	background-repeat: repeat-x repeat-y;
+	padding-top: 90px;
+}
+
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
